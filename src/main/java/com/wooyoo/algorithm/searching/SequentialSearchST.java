@@ -4,6 +4,12 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * 基于链表的符号表
+ *
+ * @param <Key>
+ * @param <Value>
+ */
 public class SequentialSearchST<Key, Value> {
     private int size; // 链表长度
     private Node head; // 链表头节点
